@@ -226,7 +226,7 @@
     };
 
     try {
-      const response = await fetch(`http://localhost:5000/tasks/${currentTaskId}`, {
+      const response = await fetch(`https://taskmaster-zpvq.onrender.com/tasks/${currentTaskId}`, {
         method: "PUT",
         headers: {
           "Content-Type": "application/json",
